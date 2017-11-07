@@ -261,7 +261,7 @@
 
 - (UIEdgeInsets)reactBorderInsets
 {
-  CGFloat borderWidth = self.layer.borderWidth;
+  CGFloat borderWidth = 2;//self.layer.borderWidth;
   return UIEdgeInsetsMake(borderWidth, borderWidth, borderWidth, borderWidth);
 }
 
